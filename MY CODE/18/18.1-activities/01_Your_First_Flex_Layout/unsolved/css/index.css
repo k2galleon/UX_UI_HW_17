@@ -5,6 +5,9 @@
   color: white;
 }
 .flex {
+  display: flex;
+  flex-direction: column;
+  column
   padding: 10px;
   margin: 10px;
   /* Set the property display to flex below! */
@@ -14,6 +17,7 @@
   /* Set the property flex direction to column below! */
 }
 #row {
+  flex-direction: row;
   background-color: #FFF7DE;
 /* Set the property flex-direction to row below! */
 }
